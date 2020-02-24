@@ -20,6 +20,26 @@ ARCHITECTURE
 
 ![s](https://github.wdf.sap.corp/ML-innovation-SG/DCD-AI-CORE/blob/master/doc/dcdai_dataflow.png)
 
+INSTALLATION
+-----
+**Prerequisites**
+
+Install tools:
+
+- poppler-utils 
+
+- tesseract-ocr 
+
+- ghostscript 
+
+- enchant 
+
+Install python packages:
+
+.. code-block:: bash
+
+   pip install -r requirements.txt
+
 USAGE
 -----
 
@@ -27,7 +47,7 @@ USAGE
 
 *Note*: The following codes show how to run DCDAI in command line.
 
-.. code-block:: python
+.. code-block:: bash
 
     # General Usage
     python ochestrator.py -h
@@ -53,10 +73,11 @@ USAGE
     # Write results of first 10 cases of downloaded PDFs
     python ochestrator.py -xw -t test/dcd_engine/100_test_docs -s 0 -e 10
 
-
 **Parameters**
 
-``python ochestrator.py -o -d -x -w -i -p -s -e``
+.. code-block:: bash
+
+   python ochestrator.py -o -d -x -w -i -p -s -e
 
 * **-o** download document from CMS API, default="ist"p'
 * **-d** download document from CMS API
