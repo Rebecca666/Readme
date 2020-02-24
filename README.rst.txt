@@ -1,4 +1,4 @@
-DCDAI
+DCD AI
 ================
 
 .. image:: https://img.shields.io/pypi/pyversions/pytesseract.svg
@@ -11,6 +11,20 @@ DCDAI
 
 
 DCD AI is known as Digital Contract Data Action Index. It is a text-based Machine Learning application, built for the legal domain. DCD AI is a tool to assist the SAP Legal Team in conducting document review on SAP Order Forms. With tens of thousands of English Order Forms yearly, the time required to conduct manual document review is simply not practical. SAP had to resort to third-party services for the manual review process, which brings up two main problems: cost, and challenges in ensuring data quality. Bad data quality could lead to Sales teams acquiring wrong information, which in turn affects chances of renewals and closing new deals.
+
+Architecture
+================
+1. The end-user for DCD AI, SAP Legal team, interacts with the UI. 
+2. DCD AI is powered by the core, which downloads contracts from CMS via ODATA service
+3. These contracts gets passed into 3 main components in the core: OCR+, Clause Prediction, Content Extraction
+4. Output of the Core is a set of predictions, one prediction for each contractual entity, aka data field.
+5. They are pushed into ML Prediction Table, which is displayed in the UI
+6. Through user-feedback and automated acceptance mechanism, the data gets passed into the Staging Table
+7. Staging Table serves 2 functions:
+   - Push high-quality data back into CMS
+   - Push high-quality data back into Core for model re-training
+
+![s](https://github.wdf.sap.corp/ML-innovation-SG/DCD-AI-CORE/blob/master/doc/dcdai_dataflow.png)
 
 USAGE
 -----
