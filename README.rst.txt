@@ -65,17 +65,28 @@ CONTRIBUTORS
 ------------
 
 **Product Owner**
-- Dr. Susanne Beckers [email](susanne.beckers@sap.com)
+
+* Dr. Susanne Beckers <susanne.beckers@sap.com>
 
 **Scrum Master**
-- Ray Han [email](ray.han@sap.com)
+
+* Ray Han <ray.han@sap.com>
 
 **Developers**
-- Ray Han [email](ray.han@sap.com)
-- Traci Lim [email](traci.lim@sap.com)
-- Lijie Quan [email](lijie.quan@sap.com)
-- Rocco Hu [email](rocco.hu@sap.com)
-- Lingxiao Liang [email](lingxiao.liang@sap.com)
-- Xiao Rui [email](rui.xiao01@sap.com)
-- Joyce Jin [email](joyce.jin01@sap.com)
-- Sandu, Venkata Narasimha Rao [email](venkata.narasimha.rao.sandu@sap.com)
+
+- Ray Han <ray.han@sap.com>
+
+- Traci Lim <traci.lim@sap.com>
+
+- Lijie Quan <lijie.quan@sap.com>
+
+- Rocco Hu <rocco.hu@sap.com>
+
+- Lingxiao Liang <lingxiao.liang@sap.com>
+
+- Joyce Jin [<joyce.jin01@sap.com>
+
+- Xiao Rui <rui.xiao01@sap.com>
+
+- Sandu, Venkata Narasimha Rao <venkata.narasimha.rao.sandu@sap.com>
+
