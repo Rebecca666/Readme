@@ -15,9 +15,9 @@ DCD AI is known as Digital Contract Data Action Index. It is a text-based Machin
 USAGE
 -----
 
-*Note*: The following codes show how to run DCDAI in command line.
-
 **Quick Start**
+
+*Note*: The following codes show how to run DCDAI in command line.
 
 .. code-block:: python
 
@@ -65,17 +65,17 @@ CONTRIBUTORS
 ------------
 
 **Product Owner**
-- `Dr. Susanne Beckers`
+- Dr. Susanne Beckers [email](susanne.beckers@sap.com)
 
-**Scrum Master**:
-- `Ray Han`
+**Scrum Master**
+- Ray Han [email](ray.han@sap.com)
 
-**Developers**:
-- `Ray Han`
-- `Traci Lim <traci.lim@sap.com>`
-- `Lijie Quan`
-- `Rocco Hu`
-- `Lingxiao Liang`
-- `Xiao Rui`
-- `Joyce Jin`
-- `Sandu, Venkata Narasimha Rao`
+**Developers**
+- Ray Han [email](ray.han@sap.com)
+- Traci Lim [email](traci.lim@sap.com)
+- Lijie Quan [email](lijie.quan@sap.com)
+- Rocco Hu [email](rocco.hu@sap.com)
+- Lingxiao Liang [email](lingxiao.liang@sap.com)
+- Xiao Rui [email](rui.xiao01@sap.com)
+- Joyce Jin [email](joyce.jin01@sap.com)
+- Sandu, Venkata Narasimha Rao [email](venkata.narasimha.rao.sandu@sap.com)
