@@ -22,7 +22,7 @@ ARCHITECTURE
 
 INSTALLATION
 -----
-**Install tools**
+**Install Tools**
 
 - poppler-utils 
 
@@ -32,7 +32,7 @@ INSTALLATION
 
 - enchant 
 
-**Install python packages**
+**Install Python Packages**
 
 .. code-block:: bash
 
