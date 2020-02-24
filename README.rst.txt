@@ -34,9 +34,10 @@ INSTALLATION
 
 **Install Python Packages**
 
-.. code-block:: bash
+```bash
 
    pip install -r requirements.txt
+```
 
 USAGE
 -----
@@ -45,7 +46,7 @@ USAGE
 
 *Note*: The following codes show how to run DCDAI in command line.
 
-.. code-block:: bash
+```bash
 
     # General Usage
     python ochestrator.py -h
@@ -70,12 +71,14 @@ USAGE
 
     # Write results of first 10 cases of downloaded PDFs
     python ochestrator.py -xw -t test/dcd_engine/100_test_docs -s 0 -e 10
+```
 
 **Parameters**
 
-.. code-block:: bash
+```bash
 
    python ochestrator.py -o -d -x -w -i -p -s -e
+```
 
 * **-o** download document from CMS API, default="ist"p'
 * **-d** download document from CMS API
